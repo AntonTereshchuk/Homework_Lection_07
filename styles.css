@@ -1,0 +1,80 @@
+html, body {
+    font-size: 16px;
+    background-color: #f8f8f8;
+}
+
+.social-icon {
+    width: 2.8rem;
+    height: 2.7rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    margin-right: 0.5rem;
+    border: 1px solid #c6c6c6;
+    border-radius: 0.3rem;
+    background: url("images/sprite.png");
+    float: left;
+}
+
+.social-icon-facebook {
+    background-position: -58px -10px;
+}
+
+.social-icon-facebook:hover {
+    background-position: -9px -10px;
+}
+
+.social-icon-facebook:active {
+    background-position: -262px -10px;
+}
+
+.social-icon-instagram {
+    background-position: -58px -59px;
+}
+
+.social-icon-instagram:hover {
+    background-position: -9px -59px;
+}
+
+.social-icon-instagram:active {
+    background-position: -262px -59px;
+}
+
+.social-icon-titok {
+    background-position: -58px -109px;
+}
+
+.social-icon-titok:hover {
+    background-position: -9px -109px;
+}
+
+.social-icon-titok:active {
+    background-position: -262px -109px;
+}
+
+.social-icon-whatsapp {
+    background-position: -58px -159px;
+}
+
+.social-icon-whatsapp:hover {
+    background-position: -9px -159px;
+}
+
+.social-icon-whatsapp:active {
+    background-position: -262px -159px;
+}
+
+.social-icon-zoom {
+    background-position: -58px -208px;
+}
+
+.social-icon-zoom:hover {
+    background-position: -9px -208px;
+}
+
+.social-icon-zoom:active {
+    background-position: -262px -208px;
+}
+
+.form-control {
+    margin-bottom: 0.5rem;
+}

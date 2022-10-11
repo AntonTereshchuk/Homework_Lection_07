@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+
+        <meta charset="UTF-8">
+        <title>Sprite and registration form</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.css" rel="stylesheet">
+        <link href="./styles.css" rel="stylesheet">
+
+    </head>
+
+    <body>
+
+        <div class="container">
+            <a class="social-icon social-icon-facebook" href="https://www.facebook.com"></a>
+            <a class="social-icon social-icon-instagram" href="https://www.instagram.com"></a>
+            <a class="social-icon social-icon-titok" href="https://www.tiktok.com"></a>
+            <a class="social-icon social-icon-whatsapp" href="https://www.whatsapp.com"></a>
+            <a class="social-icon social-icon-zoom" href="https://zoom.us/"></a>
+        </div>
+
+        <div class="container">
+            <form class="login" method="post">
+                <h2>Registration form</h2>
+                <input class="form-control" placeholder="Enter your login" minlength="5" required>
+                <input class="form-control" placeholder="Enter your password" type="password" required>
+                <input class="form-control" placeholder="Enter your age" type="number" min="0" max="110">
+                <input type="radio" id="male" name="gender"> <label for="male">Male</label>
+                <input type="radio" id="female" name="gender"> <label for="female">Female</label>
+                <select class="form-control" name="country" required>
+                    <option value="">Select country</option>
+                    <option selected value="UA">Ukraine</option>
+                    <option value="AU">Australia</option>
+                    <option value="AT">Austria</option>
+                    <option value="BE">Belgium</option>
+                    <option value="BR">Brazil</option>
+                    <option value="US">United States</option>
+                </select>                
+                <button class="btn btn-success" type="submit">Submit</button>
+                <button class="btn btn-danger" type="reset">Reset</button>
+            </form>
+        </div>
+        
+    </body>
+
+</html>
